@@ -10,3 +10,5 @@
 9. git checkout <branch name> // переключиться на другую ветку
 // файл с изменениями находится на ветке feature, сливаем ветку с master
 10. git merge feature
+11. git push origin master // заливаем репо на гитхаб. !нужно использовать ключ!
+
