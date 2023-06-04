@@ -1,0 +1,12 @@
+1. git init //инициализация репо
+2. git status // текущий статус с изменениями
+3. git add <file name> // добавление на подготовительный уровень
+4. git commit -m "комментарий"
+// git commit -a -m //git add + git commit делает сначала добавление в stage а затем коммит
+5. git log
+6. git diff <commit id> <commit id> // посмотреть разницу между коммитами. 
+7. git branch //посмотреть ветки
+8. git branch feature // feature - название новой ветки
+9. git checkout <branch name> // переключиться на другую ветку
+// файл с изменениями находится на ветке feature, сливаем ветку с master
+10. git merge feature
